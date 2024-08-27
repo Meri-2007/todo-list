@@ -5,7 +5,6 @@ export const AddToDo=({ addTodo})=>{
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Submitted Task:", task);
         addTodo(task);
         setTask("");
       };
